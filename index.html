@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&display=swap" rel="stylesheet">
+	<style type="text/css">
+		
+		body{
+		background-image:url(olivia.png); }
+
+
+		#letter{
+			background-color: rgba(255, 255, 255, 0.5);
+			width: 400px;
+			height: 500px;
+			border-radius: 10%;
+			padding: 2%;
+			font-size: 25px;
+			font-family: 'Caveat', cursive;
+
+		}
+
+		#bday{
+			font-size: 80px;
+			font-family: 'Permanent Marker', cursive;
+		}
+
+		#container{
+			position: absolute;
+			left: 70%;
+
+		}
+
+		video{
+			width: 300px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+
+	<center><div id="bday">HAPPY BIRTHDAY WE LOVE YOU!!!!</div></center>
+
+	<div id="container">
+		<video src="jade.mov" controls></video>
+		<video src="mollyZ.mov" controls></video>
+		<video src="mollyj.mov" controls></video>
+		
+	</div>
+
+	<div id="letter">
+		
+		Happy birthday Olivia! I hope you have a really incredible day. You are a phenomenal person who is out there killing the game. You’re someone I always want to tell my big news to and you have the best laugh that can make any day better. I miss you a lot and wish we were back getting ice cream somewhere in Tahoe. Or wrestling in a tent, but maybe the ice cream sounds better. You always find cool opportunities to show off your endless skills and I hope that you know how fun it is to be around you when you’re in your zone. Thank you for being a great friend. Even a best friend. Can’t imagine not having you in my life. I’m glad the universe had our paths cross.
+		~Cloe
+	</div>
+<script type="text/javascript">
+	
+	var bday = document.getElementById("bday");
+
+	function FontColor () {
+		bday.style.color = "rgb("+ Math.random()*255 + "," + Math.random()*255 + "," + Math.random()*255 + ")";}
+
+	setInterval(FontColor, 500)
+</script>
+</body>
+</html>
